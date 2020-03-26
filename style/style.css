@@ -115,10 +115,17 @@ blockquote
 ul
 { margin: 2px 0 22px 17px;}
 
-ul li
-{ list-style-type: circle;
+/* ul li
+{ list-style-type: circle
   margin: 0 0 6px 0;
-  padding: 0 0 4px 5px;}
+  padding: 0 0 4px 5px;} */
+
+ul li::before {
+  content: "\2022";
+  color: green;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em}
 
 ol
 { margin: 8px 0 22px 20px;}
@@ -240,7 +247,6 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #content ul li
 { list-style-type: none;
-  background: url(bullet.png) no-repeat;
   margin: 0 0 6px 0;
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
