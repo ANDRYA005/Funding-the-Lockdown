@@ -8,7 +8,8 @@ html
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
   background: #F0EFE2 url(background.png) repeat;
-  color: #777;}
+  color: #777;
+  }
 
 p
 { padding: 0 0 20px 0;
@@ -48,6 +49,12 @@ a, a:hover
 
 a:hover
 { text-decoration: none;}
+
+
+footer a
+{
+  color: #FFFFFF;
+  text-decoration: none;}
 
 .left
 { float: left;
@@ -122,7 +129,7 @@ ol li
   color: #676767;}
 
 #menubar
-{ position: absolute;
+{ position: relative;
   top: 20%;
   width: 100%;
   height: 72px;
@@ -212,7 +219,9 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: transparent url(transparent.png) repeat;
   color: #FFF;
   text-transform: uppercase;
-  letter-spacing: 0.1em;}
+  letter-spacing: 0.1em;
+  position: absolute;
+  bottom: 0%;}
 
 #footer a
 { color: #FFF;
@@ -299,9 +308,32 @@ table tr td
   color: #47433F;
   border-top: 1px solid #FFF;}
 
+footer
+{ width: 100%;
+  font: normal 50% 'lucida sans unicode', arial, sans-serif;
+  height: 10%;
+  padding: 5px 0 5px 0;
+  text-align: center;
+  background: transparent url(transparent.png) repeat;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 100%;
+  flex-shrink: 0;
+  position: relative;
+  bottom:0;}
+
 
   @media only screen and (min-width: 768px) {
     /* For desktop: */
+
+    #menubar
+    { position: absolute;
+      top: 20%;
+      width: 100%;
+      height: 72px;
+      padding: 0;
+      background: transparent url(transparent.png) repeat;}
 
     ul#menu li a
     { letter-spacing: 0.1em;
@@ -345,6 +377,28 @@ table tr td
 
     #content
     { text-align: left;
-      width: 70%;
+      width: 100%;
       padding: 0;}
+
+    footer
+    { width: 100%;
+      font: normal 50% 'lucida sans unicode', arial, sans-serif;
+      height: 10%;
+      padding: 5px 0 5px 0;
+      text-align: center;
+      background: transparent url(transparent.png) repeat;
+      color: #FFF;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;}
+
+
+
+  #main {
+    flex: 1 0 auto;
+  }
+  footer {
+    margin-top: 30%;
+    flex-shrink: 0;
+  }
+
 }
