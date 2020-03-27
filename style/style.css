@@ -112,10 +112,11 @@ footer a
   margin: 20px auto;}
 
 blockquote
-{ margin: 20px 0;
-  padding: 10px 20px 0 20px;
+{ margin-bottom: 5%;
+  padding: 10px 20px 10px 20px;
   border: 1px solid #E5E5DB;
-  background: #FFF;}
+  background: #F0EFE2;
+  box-shadow: 2px 2px 3px #999;}
 
 ul
 { margin: 2px 0 22px 17px;}
