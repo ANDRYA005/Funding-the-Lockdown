@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6
 h2
 { font: normal 175% 'century gothic', arial, sans-serif;
   color: #068900;}
+
 h2 a
 {
   color: #068900;
@@ -35,8 +36,8 @@ h2 a
 
 td a
 {
-  color: #068900;
-  text-decoration: none;
+  color: #12385f;
+  text-decoration: underline;
 }
 
 h4, h5, h6
@@ -80,7 +81,7 @@ h6
 a, a:hover
 { outline: none;
   text-decoration: underline;
-  color: #FD5BFF;}
+  color: #12385f;}
 
 a:hover
 { text-decoration: none;}
@@ -176,7 +177,8 @@ ol li
   width: 100%;
   height: 72px;
   padding: 0;
-  background: transparent url(transparent.png) repeat;}
+  background: transparent url(transparent.png) repeat;
+  box-shadow: 2px 2px 3px #999;}
 
 ul#menu, ul#menu li
 { float: left;
@@ -336,17 +338,18 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin: 0 0 20px 0;}
 
 table
-{ margin: 10px 0 30px 0;}
+{ margin: 10px 0 30px 0;
+  box-shadow: 2px 2px 3px #999;}
 
 table tr th, table tr td
-{ background: #3B3B3B;
+{ background: transparent url(transparent.png) repeat;
   color: #FFF;
   padding: 7px 4px;
   text-align: left;}
 
 table tr td
 { background: #F0EFE2;
-  color: #47433F;
+  color: #777777;
   border-top: 1px solid #FFF;}
 
 footer
