@@ -46,7 +46,11 @@ h4, h5, h6
   font: normal 120% arial, sans-serif;
   color: #068900;}
 
-h5, h6
+h5{
+  font-size: 110%;
+}
+
+h6
 { font: italic 95% arial, sans-serif;
   padding: 0 0 15px 0;
   color: #000;}
