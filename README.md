@@ -4,6 +4,9 @@ Website that centralized the funding information for SMMEs during the lockdown i
 
 Here is a snapshot of the website:
 
+![alt text](Isolated.png "Title")
+
+![alt text](Isolated.png "Title")
 
 
 
