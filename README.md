@@ -4,9 +4,9 @@ Website that centralized the funding information for SMMEs during the lockdown i
 
 Here is a snapshot of the website:
 
-![alt text](Isolated.png "Title")
+![alt text](https://github.com/ANDRYA005/Funding_the_Lockdown/blob/master/Website%20Snapshots/FTL1.PNG)
 
-![alt text](Isolated.png "Title")
+![alt text](https://github.com/ANDRYA005/Funding_the_Lockdown/blob/master/Website%20Snapshots/FTL2.PNG)
 
 
 
