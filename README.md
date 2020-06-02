@@ -1,4 +1,4 @@
-# Funding_the_Lockdown
+# Funding the Lockdown
 
 Website that centralized the funding information for SMMEs during the lockdown in South Africa. The website has been discontinued, but we managed to get 1 600 users over a period of 2 months.
 
