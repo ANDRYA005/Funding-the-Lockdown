@@ -8,6 +8,6 @@ Here is a snapshot of the website:
 
 ![alt text](https://github.com/ANDRYA005/Funding_the_Lockdown/blob/master/Website%20Snapshots/FTL2.PNG)
 
-
+![alt text](https://github.com/ANDRYA005/Funding_the_Lockdown/blob/master/Website%20Snapshots/FTL3.PNG)
 
 We decided to leave the website as minimal as possible to save on the data costs which would be incurred otherwise as our target market was SMMEs who are generally lower-income individuals.
